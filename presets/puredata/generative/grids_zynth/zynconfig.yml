@@ -1,0 +1,77 @@
+                               
+main_file: " main.pd"
+
+midi_controllers:
+ on/off&rnd seq:
+  midi_cc: 77
+  value: '1'
+  labels: [ '0', '1', '2', '3', '4', ]
+ kick: 
+  midi_cc: 93
+  value: '2'
+  labels: [ '1', '2', '3', '4', '5', '6', '7', '8' ]  
+ snare: 
+  midi_cc: 73
+  value: '2'
+  labels: [ '1', '2', '3', '4', '5', '6', '7' ]  
+ hihat: 
+  midi_cc: 75
+  value: '2'
+  labels: [ '1', '2', '3', '4', '5', '6', '7' ]  
+ master volume: 
+  midi_cc: 7
+  value: 60  
+ kick volume: 
+  midi_cc: 74
+  value: 60  
+ snare volume: 
+  midi_cc: 71
+  value: 60  
+ hihat volume: 
+  midi_cc: 76
+  value: 60  
+ tempo:  
+  midi_cc: 114
+  value: 60  
+ map_x: 
+  midi_cc: 18
+  value: 0
+ map_y: 
+  midi_cc: 19
+  value: 0
+ random: 
+  midi_cc: 16
+  value: 0
+ kit:
+  midi_cc: 17
+  value: '2'
+  labels: [ '1', '2' ]
+ seq carrier freq:
+  midi_cc: 72
+  value: 30
+ seq mod freq:
+  midi_cc: 79
+  value: 30
+ seq volume:
+  midi_cc: 91
+  value: 60
+  
+ synth volume:
+  midi_cc: 40
+  value: 40
+ synth attack:
+  midi_cc: 41
+  value: 40
+ synth sustain:
+  midi_cc: 43
+  value: 70  
+ synth release:
+  midi_cc: 44
+  value: 70
+  
+ synth carrier freq:
+  midi_cc: 45
+  value: 20
+ synth mod freq:
+  midi_cc: 46
+  value: 20
